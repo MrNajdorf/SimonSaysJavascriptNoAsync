@@ -1,0 +1,90 @@
+body {
+  color: aliceblue;
+  text-align: center;
+  background-color: rgb(53, 49, 49);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.switch-btn {
+  height: 3rem;
+  width: 15rem;
+  border-radius: 1rem;
+  border-width: 0;
+  background-color: aliceblue;
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+.outer {
+  display: grid;
+  grid-template-columns: 12rem 12rem;
+  grid-template-rows: 12rem 12rem;
+  margin-left: 35%;
+  grid-gap: 2rem;
+}
+
+.inner {
+  border-radius: 2rem;
+  border: solid 0.5rem aliceblue;
+  cursor:pointer;
+}
+
+.Rbox {
+  background-color: red;
+}
+
+.Gbox {
+  background-color: rgb(0, 255, 0);
+}
+.Bbox {
+  background-color: blue;
+}
+.Ybox {
+  background-color: yellow;
+}
+.Rbright {
+  background: rgb(255, 200, 200);
+  background: radial-gradient(
+    circle,
+    rgba(255, 200, 200, 1) 0%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  border-color: aqua;
+}
+
+.Gbright {
+  background: rgb(200, 255, 200);
+  background: radial-gradient(
+    circle,
+    rgba(200, 255, 200, 1) 0%,
+    rgba(0, 255, 0, 1) 100%
+  );
+  border-color: aqua;
+}
+.Bbright {
+  background: rgb(200, 200, 255);
+  background: radial-gradient(
+    circle,
+    rgba(200, 200, 255, 1) 0%,
+    rgba(0, 0, 255, 1) 100%
+  );
+  border-color: aqua;
+}
+
+.Ybright {
+  background: rgb(255, 255, 200);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 200, 1) 0%,
+    rgba(255, 255, 0, 1) 100%
+  );
+  border-color: aqua;
+}
+
+audio{
+
+  display:none;
+}
