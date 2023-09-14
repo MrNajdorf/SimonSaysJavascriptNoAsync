@@ -45,7 +45,6 @@ redBtn.addEventListener("click", () => {
         }, 1000)
     }
 
-    console.log(userSeq, gameSeq);
 });
 
 greenBtn.addEventListener("click", () => {
@@ -71,7 +70,6 @@ greenBtn.addEventListener("click", () => {
         }, 1000)
     }
 
-    console.log(userSeq, gameSeq);
 });
 
 blueBtn.addEventListener("click", () => {
@@ -97,7 +95,6 @@ blueBtn.addEventListener("click", () => {
         }, 1000)
     }
 
-    console.log(userSeq, gameSeq);
 });
 
 yellowBtn.addEventListener("click", () => {
@@ -123,7 +120,6 @@ yellowBtn.addEventListener("click", () => {
         }, 1000)
     }
 
-    console.log(userSeq, gameSeq);
 });
 
 function levelUp() {
